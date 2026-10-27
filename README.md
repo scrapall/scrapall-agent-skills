@@ -1,6 +1,6 @@
 # Scrapall Agent Skills
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/privatealbum1/scrapall-agent-skills?style=social)](https://github.com/privatealbum1/scrapall-agent-skills/stargazers) [![Website](https://img.shields.io/badge/website-scrapall-blue)](https://scrapall.bipsport.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/scrapall/scrapall-agent-skills?style=social)](https://github.com/scrapall/scrapall-agent-skills/stargazers) [![Website](https://img.shields.io/badge/website-scrapall-blue)](https://scrapall.bipsport.com/)
 
 > Realtime data for your Agent. Drop-in skills that let Claude Code, Cursor, Codex and Hermes pull public data from 37 platforms through one REST API: https://scrapall.bipsport.com/
 
@@ -72,7 +72,7 @@ Every request authenticates with the `X-Scapi-Key` header. Responses are JSON.
 Clone the repo, then copy (or symlink) the folders you need from `skills/` into the skills directory your agent reads:
 
 ```bash
-git clone https://github.com/privatealbum1/scrapall-agent-skills.git
+git clone https://github.com/scrapall/scrapall-agent-skills.git
 ```
 
 - **Claude Code**: put each `skills/<platform>/` folder in your personal or project skills directory (for example `~/.claude/skills/` or `.claude/skills/` inside the project).
@@ -82,7 +82,7 @@ git clone https://github.com/privatealbum1/scrapall-agent-skills.git
 
 ## Star & get free credits
 
-1. Star this repo: https://github.com/privatealbum1/scrapall-agent-skills
+1. Star this repo: https://github.com/scrapall/scrapall-agent-skills
 2. Sign in at https://scrapall.bipsport.com/account/ and connect your GitHub account.
 3. **+20 credits** are added to your balance (once per account).
 
@@ -105,7 +105,7 @@ Errors return JSON like `{"error": {"code": "insufficient_credits", "message": "
 - Website: https://scrapall.bipsport.com/
 - Docs: https://scrapall.bipsport.com/docs/
 - Telegram: rajoulzsannax123
-- Issues: https://github.com/privatealbum1/scrapall-agent-skills/issues
+- Issues: https://github.com/scrapall/scrapall-agent-skills/issues
 
 ## License
 
